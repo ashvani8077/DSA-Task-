@@ -1,7 +1,7 @@
 class Solution {
     public int shipWithinDays(int[] arr, int days) {
         int ans=-1;
-        int n=arr.length;
+        //int n=arr.length;
         int low=maximum(arr);
         int high=sum(arr);
         while (low<=high){
